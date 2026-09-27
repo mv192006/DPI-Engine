@@ -1,0 +1,24 @@
+# Build artifacts and binaries
+dpi_engine
+dpi_engine_working
+dpi_simple
+build/
+bin/
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+compile_commands.json
+
+# Generated output files
+output.pcap
+output_filtered.pcap
+
+# OS & Editor files
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+.agents/
